@@ -22,6 +22,14 @@ header {
     position: absolute;
     top: 10px;
     left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.youtube_logo {
+    width: 35px;
+    height: 30px;
+    margin-right: 8px;
 }
 
 .logo h1 {
