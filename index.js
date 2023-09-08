@@ -26,8 +26,6 @@ const movies = [
     { title: 'The Dark Knight', poster: 'The Dark Knight.jpg', video: 'https://dpsbokaro-my.sharepoint.com/:v:/g/personal/mahinigam11b_dpsbokaro_onmicrosoft_com/EUMjCg8xMPBNk3lYG2TMCHUBo8q3tGs2Wofurh0-LBEq_Q' },
 
     { title: 'Top Gun Maverick', poster: 'Top Gun Maverick.jpg', video: 'https://dpsbokaro-my.sharepoint.com/:v:/g/personal/mahinigam11b_dpsbokaro_onmicrosoft_com/Ef98YfPTYrtLm2I5znJfVLUBNFuZ0nm7VIrAx2WaGJweQQ' },
-
-    { title: 'Zack Snyder\'s Justice League', poster: 'Zack Snyder\'s Justice League.jpg', video: 'https://dpsbokaro-my.sharepoint.com/:v:/g/personal/mahinigam11b_dpsbokaro_onmicrosoft_com/Ea-o4Ul5WNJGniyNwk5wQtQBj5-2h-o3DpMEjarQfBaKIA' },
 ];
 
 function openVideoPageInNewWindow(videoUrl) {
