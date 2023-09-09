@@ -1,7 +1,7 @@
 const moviesPage1 = [
-    { title: 'The Dark Knight', poster: 'The Dark Knight.jpg', video: 'https://dpsbokaro-my.sharepoint.com/:v:/g/personal/mahinigam11b_dpsbokaro_onmicrosoft_com/EUMjCg8xMPBNk3lYG2TMCHUBo8q3tGs2Wofurh0-LBEq_Q' },
+    { title: 'The Dark Knight', poster: 'Posters/The Dark Knight.jpg', video: 'https://dpsbokaro-my.sharepoint.com/:v:/g/personal/mahinigam11b_dpsbokaro_onmicrosoft_com/EUMjCg8xMPBNk3lYG2TMCHUBo8q3tGs2Wofurh0-LBEq_Q' },
 
-    { title: 'Top Gun Maverick', poster: 'Top Gun Maverick.jpg', video: 'https://dpsbokaro-my.sharepoint.com/:v:/g/personal/mahinigam11b_dpsbokaro_onmicrosoft_com/Ef98YfPTYrtLm2I5znJfVLUBNFuZ0nm7VIrAx2WaGJweQQ' },
+    { title: 'Top Gun Maverick', poster: 'Posters/Top Gun Maverick.jpg', video: 'https://dpsbokaro-my.sharepoint.com/:v:/g/personal/mahinigam11b_dpsbokaro_onmicrosoft_com/Ef98YfPTYrtLm2I5znJfVLUBNFuZ0nm7VIrAx2WaGJweQQ' },
 ];
 
 function openVideoPageInNewWindow(videoUrl) {
@@ -23,28 +23,4 @@ document.addEventListener('DOMContentLoaded', () => {
             openVideoPageInNewWindow(videoUrl);
         });
     });
-});
-
-
-const movieList = document.querySelector('.movie-list');
-moviesPage1.forEach(movie => {
-    const movieCard = document.createElement('div');
-    movieCard.classList.add('movie-card');
-
-    const img = document.createElement('img');
-    img.src = movie.poster;
-    img.alt = movie.title;
-
-    const h2 = document.createElement('h2');
-    h2.textContent = movie.title;
-
-    const button = document.createElement('button');
-    button.classList.add('play-button');
-    button.textContent = 'Play';
-    button.setAttribute('data-video-url', movie.video);
-
-    movieCard.appendChild(img);
-    movieCard.appendChild(h2);
-    movieCard.appendChild(button);
-    movieList.appendChild(movieCard);
 });

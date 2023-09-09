@@ -32,6 +32,13 @@ header {
     margin-right: 8px;
 }
 
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
 .logo h1 {
     font-size: 24px;
     color: darkslateblue ;
@@ -58,7 +65,7 @@ main {
 
 .movie-card {
     width: 200px;
-    margin: 25px;
+    margin: 55px;
     text-align: center;
     height: 320px;
     overflow: hidden;
@@ -94,6 +101,8 @@ main {
 .movie-card button {
     display: block;
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #ff4081;
     color: #fff;
     border: none;
