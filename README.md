@@ -1,2 +1,3 @@
 # Petflix
-The name is flix.  Pet-flix.
+
+The name is flix. Pet-flix.
